@@ -79,15 +79,22 @@ while running:
         if block == [snake_x, snake_y]:
             running = False
 
-    #***************************************STUDENT ACTIVITY*******************************************
+    #**********************************************STUDENT ACTIVITY********************************************************************
 
-   
+    if snake_x < 0
+        running = False
+    else if snake_x>=SCREEN_WIDTH:
+        running=False
+    else if snake_y < 0:
+        running=False
+    else if snake_y >= SCREEN_HEIGHT:
+        running=False
     
 
-    #***************************************************************************************************
+    #****************************************************************************************************************************
 
     # Fill screen with black background
-    screen.fill(WHITE)
+    screen.fill(BLACK)
 
     # Draw snake
     for block in snake_body:
